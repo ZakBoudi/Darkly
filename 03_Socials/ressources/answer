@@ -1,0 +1,8 @@
+http://192.168.1.28/index.php
+modifier le site en bas de page facebook | instar | tweet par un autre comme google.fr
+
+<a href="index.php?page=redirect&amp;site=facebook" class="icon fa-facebook"></a>
+devient 
+<a href="index.php?page=redirect&amp;site=www.google.com" class="icon fa-facebook"></a>
+
+on btient le flag en cliquant sur le lien modifié

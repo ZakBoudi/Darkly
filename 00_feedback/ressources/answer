@@ -1,0 +1,3 @@
+utilisation d’une balise script a la place du nom dans le formulaire de feedback 
+<script>alert('test')</script> 
+on obtient le flag 

@@ -1,0 +1,21 @@
+on regarde si il y a un IP/robots.txt (à la racine, convention)
+on peut voir :
+
+User-agent: *
+Disallow: /whatever
+Disallow: /.hidden
+
+on s'intéresse a IP/whatever on y voit :
+
+../
+htpasswd   
+
+on peut telecharger un fichier qui contient :
+	-->	root:8621ffdbc5698829397d97767ac13db3
+	-->	on en déduit une combinaison user:password
+
+Md5 decode : 8621ffdbc5698829397d97767ac13db3 : dragon 
+
+on va a IP/admin
+
+on y entre les identifiants et obtient le flag

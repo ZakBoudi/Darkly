@@ -1,0 +1,17 @@
+on regarde si il y a un IP/robots.txt (à la racine, convention)
+on peut voir :
+
+User-agent: *
+Disallow: /whatever
+Disallow: /.hidden
+
+on s'intéresse a IP/.hidden on y voit une liste de dossier s(26, commencant respectivement par chacune des lettres de l'alphabet) et un fichier readme dans lequel on peut lire : 
+--> Tu veux de l'aide ? Moi aussi !  
+
+si on selectionne le premier dossier on y trouve une  nouvelle liste de dossiers (26, commencant respectivement par chacune des lettres de l'alphabet) et aussi un autre fichier readme contenant :
+--> Demande à ton voisin de droite  
+
+On en déduit qu'il y a un readme dans chaque dossier et possiblement il y en a un qui contient une information importante
+
+on essaie de scrap l'ensemble des fichiers README et de récupérer l'infos (le flag) via grep en parcourant l'ensemble 
+il y a 18279 README 

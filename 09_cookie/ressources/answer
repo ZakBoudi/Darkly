@@ -1,0 +1,21 @@
+afficher les cookies :
+console.log(document.cookie);
+
+modifier un cookie:	modifier un cookie:
+document.cookie = "x = y;";	document.cookie = "x = y;";
+
+
+supprimer un cookie :	supprimer un cookie :
+document.cookie = "x =; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";	document.cookie = "x =; expires=Thu, 01 Jan 1970 00:00:00 UTC; path=/;";
+
+
+sur la page 
+console.log(document.cookie); --> "I_am_admin=68934a3e9455fa72420237eb05902327;"	console.log(document.cookie); --> "I_am_admin=68934a3e9455fa72420237eb05902327;"
+
+
+Md5 decode : 68934a3e9455fa72420237eb05902327 : false 	Md5 decode : 68934a3e9455fa72420237eb05902327 : false 
+Md5(true) = b326b5062b2f0e69046810717534cb09	
+document.cookie = "I_am_admin=b326b5062b2f0e69046810717534cb09;";	on en déduit qu'il faut le passer a "true" :
+	Md5(true) = b326b5062b2f0e69046810717534cb09
+	document.cookie = "I_am_admin=b326b5062b2f0e69046810717534cb09;";
+et on obtient le flag 	et on obtient le flag 

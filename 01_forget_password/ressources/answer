@@ -1,0 +1,6 @@
+http://192.168.1.28/index.php?page=recover
+Inspecter le bouton submit :
+
+<input type="hidden" name="mail" value="webmaster@borntosec.com" maxlength="15">
+
+Modifier l’adresse webmaster@borntosec.com par casper@borntosec.com pour obtenir le flag 
